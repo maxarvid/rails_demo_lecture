@@ -1,4 +1,4 @@
-RSpec.describe 'GET /api/articles' do
+RSpec.describe 'GET /api/articles', type: :request do
   describe 'successfully' do
     before do
       get '/api/articles'
